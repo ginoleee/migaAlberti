@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	text-align: left;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	align-items: center;
+}
+
+.banner {
+    flex-direction: column;
+}
+
+.banner img {
+    width: 315px;
+}
+
+.container {	
+	height: 800px;	
+	background-color: #bfbfbe;
+	justify-content: left;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	height: 550px;
+	width: 1000px;
+	text-align: left;
+}
+
+.cards img {
+	height: 500px;
+	margin-left: 400px;
+}
+.botback {
+	height: 70px;
+	background-color: #bfbfbe;
+	color: black;
+}
+
+.frase{
+	text-align: center;
+	font-family:'EB Garamond', sans-serif;
+	height: 37px;
+}
+
+.simon{
+	text-align: center;
+	font-family:'EB Garamond', sans-serif;
+	height: 4.5px;
+}
+
+.footer {
+	height: 42px;
+	background-color: #0061b2;
+	color: black;
+}
